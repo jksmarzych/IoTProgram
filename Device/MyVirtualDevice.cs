@@ -16,8 +16,8 @@ namespace IOT_Device
     public class MyDevice
     {
         private readonly DeviceClient deviceClient;
-        string OPCstring = "opc.tcp://localhost:4840/";
-        string DeviceName = "Device 1";
+        string OPCstring = File.ReadAllText("C:\\Users\\Jola\\Desktop\\IoT\\IoTProgram\\Device\\OpcUaConnectionString.txt");
+        string DeviceName = File.ReadAllText("C:\\Users\\Jola\\Desktop\\IoT\\IoTProgram\\Device\\OpcUaDeviceName.txt");
         public MyDevice(DeviceClient deviceClient)
         {
             this.deviceClient = deviceClient;

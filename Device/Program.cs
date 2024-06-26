@@ -5,7 +5,7 @@ using Microsoft.Azure.Devices;
 using IOT_Device;
 
 
-string conString = "HostName=hub777.azure-devices.net;DeviceId=device1;SharedAccessKey=bFTPJmi0cE2NAWHFDwUsTgfizCfIjwzgDAIoTMILmdA=";
+string conString = File.ReadAllText("C:\\Users\\Jola\\Desktop\\IoT\\IoTProgram\\Device\\AzureConString.txt");
 Console.WriteLine("============================================");
 Console.WriteLine("[Agent] Azure Conntecting String Loaded");
 

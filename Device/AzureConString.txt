@@ -1,0 +1,1 @@
+HostName=hub777.azure-devices.net;DeviceId=device1;SharedAccessKey=bFTPJmi0cE2NAWHFDwUsTgfizCfIjwzgDAIoTMILmdA=
